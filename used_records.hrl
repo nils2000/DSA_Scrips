@@ -1,0 +1,37 @@
+-record(held, 
+	{
+	name,
+	mut,
+	klugheit,
+	charisma,
+	geschicklichkeit,
+	koerperkraft,
+	stufe,
+	lebenspunkte,
+	astralpunkte,
+	karmapunkte,
+	abenteuerpunkte,
+	attacke,
+	parade,
+	waffe,
+	ruestungsschutz,
+	schon_angegriffen,
+	schon_verteidigt
+	}).
+
+-record(waffe,
+	{
+	name,
+	bruchfaktor,
+	attacke,
+	parade,
+	trefferpunkte,
+	gewicht 
+	}).
+
+-record(wuerfelsatz,
+	{
+	anzahl_wuerfel,
+	wuerfel_typ,
+	modifikator
+	}).
