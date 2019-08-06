@@ -1,37 +1,37 @@
--record(held, 
+-record(hero, 
 	{
 	name,
-	mut,
-	klugheit,
+	courage,
+	cleverness,
 	charisma,
-	geschicklichkeit,
-	koerperkraft,
-	stufe,
-	lebenspunkte,
-	astralpunkte,
-	karmapunkte,
-	abenteuerpunkte,
-	attacke,
+	dexterity,
+	strength,
+	level,
+	lifepoints,
+	astralpoints,
+	karmapoints,
+	experience,
+	attack,
 	parade,
-	waffe,
-	ruestungsschutz,
-	schon_angegriffen,
-	schon_verteidigt
+	weapon,
+	armor,
+	has_attacked,
+	has_defended
 	}).
 
--record(waffe,
+-record(weapon,
 	{
 	name,
-	bruchfaktor,
-	attacke,
-	parade,
-	trefferpunkte,
-	gewicht 
+	fragility,
+	attackmodifier,
+	parademodifier,
+	damage,
+	weight 
 	}).
 
--record(wuerfelsatz,
+-record(set_of_dice,
 	{
-	anzahl_wuerfel,
-	wuerfel_typ,
-	modifikator
+	number_of_dice,
+	type_of_dice,
+	modifier
 	}).
