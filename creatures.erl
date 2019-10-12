@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -module (creatures).
 -include ("used_records.hrl").
 -export ([
@@ -63,5 +62,4 @@ common_hero() ->
 
 bold_hero() ->
 	Hero = common_hero(),
->>>>>>> 6c4c6a24ff4b2b1da0a8c17b99b3deaf01f0f70a
 	Hero#hero{courage = 13}.

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -module (weapons).
 -include ("used_records.hrl").
 -export ([sword/0]).
@@ -40,7 +39,6 @@ club() ->
 hatchet() ->
 	weapon("hatchet",4,0,-4,damage(1,6,3)60).
 
-=======
 -module (weapons).
 -include ("used_records.hrl").
 -export ([sword/0]).
@@ -57,4 +55,3 @@ sword() ->
 		parademodifier=0,
 		damage=Damage,
 		weight=0}.
->>>>>>> 6c4c6a24ff4b2b1da0a8c17b99b3deaf01f0f70a
