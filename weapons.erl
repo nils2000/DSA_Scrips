@@ -37,21 +37,4 @@ club() ->
 	weapon("club",6,-1,-3,damage(1,6,2),80).
 
 hatchet() ->
-	weapon("hatchet",4,0,-4,damage(1,6,3)60).
-
--module (weapons).
--include ("used_records.hrl").
--export ([sword/0]).
-
-sword() ->
-	Damage = #set_of_dice{
-		number_of_dice=1,
-		type_of_dice=6,
-		modifier=4},
-	#weapon{
-		name="Sword",
-		fragility=2,
-		attackmodifier=0,
-		parademodifier=0,
-		damage=Damage,
-		weight=0}.
+	weapon("hatchet",4,0,-4,damage(1,6,3),60).
